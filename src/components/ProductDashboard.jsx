@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 
- const API_URL = 'http://localhost:5000/api';
+ const API_URL = 'https://sellup-backend.onrender.com/api';
 
 export default function ProductDashboard({ product }) {
   const navigate = useNavigate();

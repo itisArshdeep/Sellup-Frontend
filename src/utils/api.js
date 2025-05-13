@@ -1,6 +1,6 @@
 import axios from 'axios';
 
- const API_URL = 'http://localhost:5000/api';
+ const API_URL = 'https://sellup-backend.onrender.com/api';
 
 // ==================== Auth APIs ====================
 export const registerApi = async (email, password, storeName, upiId) => {
