@@ -21,7 +21,7 @@ export default function ProductDashboard({ product }) {
         headers: {
           'x-auth-token': token
         }
-      });
+      }); 
       toast.success('Product deleted');
       window.location.reload(); // Or refetch products in parent
     } catch (error) {
